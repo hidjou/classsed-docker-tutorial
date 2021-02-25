@@ -1,0 +1,21 @@
+{
+  "name": "docker-tut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.18",
+    "morgan": "^1.10.0",
+    "pg": "^8.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js",
+    "migrate": "node scripts/migrate.js",
+    "seed": "node scripts/seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
